@@ -12,7 +12,7 @@ public class BeanExampleApplication {
 		SpringApplication.run(BeanExampleApplication.class, args);
 	}
 
-	@Bean
+	//@Bean
 	CommandLineRunner init() {
 		CommandLineRunner action = new CommandLineRunner() {
 			@Override
